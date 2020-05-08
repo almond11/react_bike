@@ -1,0 +1,30 @@
+.superscript{
+  font-size: .6em;
+  vertical-align: top;
+}
+
+.temperature-container{
+  font-size:4em;
+  padding-left: 15px;
+  display: flex;
+}
+
+.temperature-switch{
+  display:flex;
+  align-items: center;
+  padding:10px;
+  font-size:.6em;
+}
+
+.temperature-unit{
+  transform:scale(.4);
+  transition:transform .4s linear;
+  cursor:pointer;
+}
+.temperature-unit:hover{
+  transform: scale(.5);
+}
+.temperature-unit-active{
+  transform:scale(1.2);
+  transition:transform .3s linear;
+}
